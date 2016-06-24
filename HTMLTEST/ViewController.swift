@@ -301,6 +301,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
         }
         indicator.stopAnimating()
         htmlstr = webView.stringByEvaluatingJavaScriptFromString("document.documentElement.innerHTML")
+        //我不是标题党。。。。然而的确用到了js 你瞧这不是么。。。还会有更多的。。先做一个小说的自个用下。
         showhtmlstr()
         //3G神马书城阅读
         if urlTextField.text!.containsString("sm.book.3g.cn/content/"){
